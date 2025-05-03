@@ -1,0 +1,479 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 27128
+License: Customer
+
+Current time: 	Sat May 03 22:59:10 IST 2025
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 90 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Applications/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/Applications/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ASUS
+User home directory: C:/Users/ASUS
+User working directory: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Applications/Vivado
+HDI_APPROOT: D:/Applications/Vivado/2018.1
+RDI_DATADIR: D:/Applications/Vivado/2018.1/data
+RDI_BINDIR: D:/Applications/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/Applications/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/vivado.log
+Vivado journal file location: 	C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/vivado.jou
+Engine tmp dir: 	C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/.Xil/Vivado-27128-Lahiru
+
+GUI allocated memory:	191 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 592 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 64 MB (+64623kb) [00:00:12]
+// [Engine Memory]: 529 MB (+402733kb) [00:00:12]
+// Opening Vivado Project: C:\Users\ASUS\Desktop\Digital Design\Vivado\nanoprocessor\nanoprocessor.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.xpr} 
+// [Engine Memory]: 566 MB (+11044kb) [00:00:13]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/Nano_Prosessor' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 37 MB. Current time: 5/3/25 10:59:12 PM IST
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Applications/Vivado/2018.1/data/ip'. 
+// [Engine Memory]: 643 MB (+52051kb) [00:00:18]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 677 MB (+1914kb) [00:00:19]
+// Project name: nanoprocessor; location: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor; part: xc7a35tcpg236-1
+// [Engine Memory]: 727 MB (+15985kb) [00:00:20]
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 891.258 ; gain = 120.289 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 67 MB (+241kb) [00:08:03]
+// Elapsed time: 464 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Reg(Behavioral) (Reg.vhd)]", 7, false); // B (D, ch)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Reg(Behavioral) (Reg.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Reg(Behavioral) (Reg.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 74 MB (+3403kb) [00:08:30]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, ch) - Node
+// [GUI Memory]: 79 MB (+1181kb) [00:08:37]
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// [GUI Memory]: 83 MB (+262kb) [00:11:13]
+// [GUI Memory]: 88 MB (+790kb) [00:11:33]
+// Elapsed time: 541 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "8_WAY"); // X (Q, F)
+// Elapsed time: 21 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "8_way_4_bit_MUX"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+// Elapsed time: 44 seconds
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 621 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/8_way_4_bit_MUX.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/8_way_4_bit_MUX.vhd}} 
+// I (ch): Define Module: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 748 MB. GUI used memory: 49 MB. Current time: 5/3/25 11:18:08 PM IST
+// Elapsed time: 12 seconds
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0", 0, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I1", 1, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I2", 2, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 3, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I3", 3, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 4, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I4", 4, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 5, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I5", 5, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 6, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I6", 6, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 7, (String) null, 0); // ab (O, I)
+// [GUI Memory]: 96 MB (+3764kb) [00:20:05]
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I7", 7, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 8, (String) null, 0); // ab (O, I)
+// [Engine Memory]: 765 MB (+1698kb) [00:20:10]
+// [GUI Memory]: 104 MB (+3230kb) [00:20:25]
+// [GUI Memory]: 110 MB (+1101kb) [00:21:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 783 MB. GUI used memory: 88 MB. Current time: 5/3/25 11:20:39 PM IST
+// Elapsed time: 99 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S", 8, "Port Name", 0); // ab (O, I)
+// [GUI Memory]: 119 MB (+3566kb) [00:21:50]
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 9, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Y", 9, "Port Name", 0); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, I)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, I)
+// [GUI Memory]: 134 MB (+8982kb) [00:22:05]
+// [Engine Memory]: 816 MB (+13843kb) [00:22:05]
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 10, "in", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 10, "Direction", 1); // ab (O, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 827 MB. GUI used memory: 123 MB. Current time: 5/3/25 11:21:04 PM IST
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Y ; in ; false ; 0 ; 0", 9, "Y", 0); // ab (O, I)
+// [GUI Memory]: 154 MB (+14084kb) [00:22:10]
+// [GUI Memory]: 188 MB (+27439kb) [00:22:15]
+// [Engine Memory]: 859 MB (+2699kb) [00:22:15]
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Y", 9, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; in ; false ; 0 ; 0", 8, "in", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 8, "Direction", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 9, "Direction", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 8, "Direction", 1); // ab (O, I)
+// [GUI Memory]: 219 MB (+23158kb) [00:22:20]
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Y ; in ; false ; 0 ; 0", 9, "in", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 9, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; out ; false ; 0 ; 0", 8, "out", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 8, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Y ; in ; false ; 0 ; 0", 9, "in", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 9, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0 ; in ; false ; 0 ; 0", 0, "false", 2); // ab (O, I)
+// [GUI Memory]: 236 MB (+5755kb) [00:22:40]
+// [Engine Memory]: 911 MB (+8574kb) [00:22:40]
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I1 ; in ; false ; 0 ; 0", 1, "false", 2); // ab (O, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 921 MB. GUI used memory: 194 MB. Current time: 5/3/25 11:21:39 PM IST
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I2 ; in ; false ; 0 ; 0", 2, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I3 ; in ; false ; 0 ; 0", 3, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I4 ; in ; false ; 0 ; 0", 4, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I5 ; in ; false ; 0 ; 0", 5, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I6 ; in ; false ; 0 ; 0", 6, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I7 ; in ; false ; 0 ; 0", 7, "false", 2); // ab (O, I)
+// [GUI Memory]: 251 MB (+3955kb) [00:22:56]
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; in ; false ; 0 ; 0", 8, "false", 2); // ab (O, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 956 MB. GUI used memory: 245 MB. Current time: 5/3/25 11:21:54 PM IST
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Y ; out ; false ; 0 ; 0", 9, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0 ; in ; true ; 0 ; 0", 0, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 0, "MSB", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 9, "MSB", 3); // ab (O, I)
+// [GUI Memory]: 291 MB (+27882kb) [00:23:01]
+// [Engine Memory]: 975 MB (+20145kb) [00:23:01]
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 0, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I1 ; in ; true ; 0 ; 0", 1, "0", 3); // ab (O, I)
+// [GUI Memory]: 318 MB (+13223kb) [00:23:06]
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 1, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I2 ; in ; true ; 0 ; 0", 2, "0", 3); // ab (O, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 998 MB. GUI used memory: 264 MB. Current time: 5/3/25 11:22:09 PM IST
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 2, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I3 ; in ; true ; 0 ; 0", 3, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 3, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I4 ; in ; true ; 0 ; 0", 4, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 4, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I5 ; in ; true ; 0 ; 0", 5, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "1", 5, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I5 ; in ; true ; 1 ; 0", 5, "1", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 5, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I5 ; in ; true ; 0 ; 0", 5, "0", 3, false, false, false, false, true); // ab (O, I) - Double Click
+// [GUI Memory]: 334 MB (+215kb) [00:23:26]
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 5, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I6 ; in ; true ; 0 ; 0", 6, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 6, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I7 ; in ; true ; 0 ; 0", 7, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 7, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; in ; true ; 0 ; 0", 8, "0", 3); // ab (O, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 301 MB. Current time: 5/3/25 11:22:39 PM IST
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "2", 8, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Y ; out ; true ; 0 ; 0", 9, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 9, "MSB", 3); // ab (O, I)
+// [GUI Memory]: 357 MB (+6530kb) [00:24:26]
+// [Engine Memory]: 1,062 MB (+39478kb) [00:24:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 345 MB. Current time: 5/3/25 11:23:24 PM IST
+// Elapsed time: 50 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files]", 9, true); // B (D, ch) - Node
+// [GUI Memory]: 383 MB (+8430kb) [00:24:46]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 8_way_4_bit_MUX.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 8_way_4_bit_MUX.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 61 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 8_way_4_bit_MUX.vhd]", 2, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 295, 381); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 191, 381); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 187, 383); // cd (w, ch)
+typeControlKey((HResource) null, "8_way_4_bit_MUX.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 49, 161); // cd (w, ch)
+typeControlKey((HResource) null, "8_way_4_bit_MUX.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 26, 349); // cd (w, ch)
+typeControlKey((HResource) null, "8_way_4_bit_MUX.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 214, 433); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_8_way_4_bit(Behavioral) (8_way_4_bit_MUX.vhd)]", 2, false); // B (D, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 138, 418); // cd (w, ch)
+// [GUI Memory]: 403 MB (+1539kb) [00:27:18]
+// Elapsed time: 87 seconds
+selectCodeEditor("8_way_4_bit_MUX.vhd", 262, 435); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 69, 410); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 54, 393); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 52, 379); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("8_way_4_bit_MUX.vhd", 52, 379); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 52, 379, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey(null, null, 'z');
+selectCodeEditor("8_way_4_bit_MUX.vhd", 62, 382); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("8_way_4_bit_MUX.vhd", 63, 472); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("8_way_4_bit_MUX.vhd", 45, 416); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 45, 396); // cd (w, ch)
+typeControlKey((HResource) null, "8_way_4_bit_MUX.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 0, 228); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("8_way_4_bit_MUX.vhd", 133, 401); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 134, 397); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("8_way_4_bit_MUX.vhd", 249, 212); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("8_way_4_bit_MUX.vhd", 80, 111); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 80, 111, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 80, 111); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 80, 111, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 80, 111); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 82, 318); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 82, 318, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 77, 345); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 77, 345); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 77, 345); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 77, 345, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 77, 329); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 77, 329, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 77, 329); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("8_way_4_bit_MUX.vhd", 79, 303); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 79, 303, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 74, 332); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 74, 332, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 74, 368); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 74, 368, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 75, 402); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 75, 402, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 76, 439); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 76, 439, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 79, 348); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 79, 348, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 71, 386); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 71, 386, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("8_way_4_bit_MUX.vhd", 80, 152); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 83, 179); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("8_way_4_bit_MUX.vhd", 83, 183); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 84, 211); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 84, 244); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 84, 278); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 82, 307); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 83, 348); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 83, 388); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 276, 304); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 81, 114); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 85, 407); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("8_way_4_bit_MUX.vhd", 194, 437); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 51, 106); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 171, 368); // cd (w, ch)
+// Elapsed time: 125 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 206 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 19 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "MUX_2_way_4_bit"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 35 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_way_4_bit.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_way_4_bit.vhd}} 
+// I (ch): Define Module: addNotify
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0", 0, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I1", 1, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0 ; in ; false ; 0 ; 0", 0, "in", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 0, "Direction", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 1, "Direction", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 0, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0", 0, "Port Name", 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S", 2, "Port Name", 0); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // B (f, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 3, (String) null, 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Y", 3, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Y ; in ; false ; 0 ; 0", 3, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; in ; false ; 0 ; 0", 2, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; in ; false ; 0 ; 0", 2, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I1 ; in ; false ; 0 ; 0", 1, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0 ; in ; false ; 0 ; 0", 0, "false", 2); // ab (O, I)
+// Elapsed time: 12 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0 ; in ; true ; 0 ; 0", 0, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "4", 0, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; in ; true ; 0 ; 0", 2, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "MSB", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "LSB", 4); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "MSB", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "LSB", 4); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "MSB", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "LSB", 4); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "LSB", 4); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0 ; in ; true ; 4 ; 0", 0, "4", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 0, "MSB", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "MSB", 3); // ab (O, I)
+// [GUI Memory]: 448 MB (+25344kb) [00:39:19]
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 0, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0 ; in ; true ; 0 ; 0", 0, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 0, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0 ; in ; true ; 0 ; 0", 0, "0", 3, false, false, false, false, true); // ab (O, I) - Double Click
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 0, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I0 ; in ; true ; 0 ; 0", 0, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 0, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "I1 ; in ; true ; 0 ; 0", 1, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 1, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "S ; in ; true ; 0 ; 0", 2, "true", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Y ; in ; true ; 0 ; 0", 3, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 3, "MSB", 3); // ab (O, I)
+// [GUI Memory]: 474 MB (+4445kb) [00:39:44]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 3, "MSB", 3); // ab (O, I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("8_way_4_bit_MUX.vhd", 246, 77); // cd (w, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 94, 395); // cd (w, ch)
+typeControlKey((HResource) null, "8_way_4_bit_MUX.vhd", 'c'); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_2_way_4_bit(Behavioral) (MUX_2_way_4_bit.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_2_way_4_bit(Behavioral) (MUX_2_way_4_bit.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("MUX_2_way_4_bit.vhd", 70, 429); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 70, 429, false, true, false, false, false); // cd (w, ch) - Control Key
+typeControlKey((HResource) null, "MUX_2_way_4_bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 112, 447); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "8_way_4_bit_MUX.vhd", 3); // k (j, ch)
+selectCodeEditor("8_way_4_bit_MUX.vhd", 291, 427); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_way_4_bit.vhd", 4); // k (j, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 111, 227); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 88, 191); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 259, 263); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 218, 166); // cd (w, ch)
+// [GUI Memory]: 502 MB (+3684kb) [00:40:53]
+selectCodeEditor("MUX_2_way_4_bit.vhd", 267, 306); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 176, 261); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("MUX_2_way_4_bit.vhd", 83, 196); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 198, 256); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 103, 229); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 150, 277); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("MUX_2_way_4_bit.vhd", 119, 62); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 219, 254); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 198, 285); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 193, 408); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 110, 381); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 88, 184); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 43, 147); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+// 'h' command handler elapsed time: 32 seconds
+// Elapsed time: 30 seconds
+dismissDialog("Add Sources"); // c (ch)
