@@ -53,18 +53,86 @@ architecture Behavioral of Register_Bank is
         Port ( En : in STD_LOGIC;
                D : in STD_LOGIC_VECTOR (3 downto 0);
                Clk : in STD_LOGIC;
+               Res : in STD_LOGIC;
                Q : out STD_LOGIC_VECTOR (3 downto 0));
     end component;
     
     component Decoder_3_to_8
-        Port ( En : in STD_LOGIC;
-               I : in STD_LOGIC_VECTOR (2 downto 0);
+        Port ( I : in STD_LOGIC_VECTOR (2 downto 0);
                Y : out STD_LOGIC_VECTOR (7 downto 0));
     end component;
+    
+    SIGNAL E : std_logic_vector (7 downto 0);
 begin
+
+  
+Decoder : Decoder_3_to_8
+    port map (
+        I => Reg_Sel,
+        Y => E );
 
 Reg0 : Reg
     port map (
-        En 
+        En => E(0),
+        D => Data,
+        Clk => Clk,
+        Res => Res,
+        Q => Reg_0);
 
+Reg1 : Reg
+    port map (
+        En => E(1),
+        D => Data,
+        Clk => Clk,
+        Res => Res,
+        Q => Reg_1);     
+
+Reg2 : Reg
+    port map (
+        En => E(2),
+        D => Data,
+        Clk => Clk,
+        Res => Res,
+        Q => Reg_2);
+
+Reg3 : Reg
+    port map (
+        En => E(3),
+        D => Data,
+        Clk => Clk,
+        Res => Res,
+        Q => Reg_3);
+
+Reg4 : Reg
+    port map (
+        En => E(4),
+        D => Data,
+        Clk => Clk,
+        Res => Res,
+        Q => Reg_4);
+
+Reg5 : Reg
+    port map (
+        En => E(5),
+        D => Data,
+        Clk => Clk,
+        Res => Res,
+        Q => Reg_5);     
+
+Reg6 : Reg
+    port map (
+        En => E(6),
+        D => Data,
+        Clk => Clk,
+        Res => Res,
+        Q => Reg_6);
+
+Reg7 : Reg
+    port map (
+        En => E(7),
+        D => Data,
+        Clk => Clk,
+        Res => Res,
+        Q => Reg_7);  
+        
 end Behavioral;

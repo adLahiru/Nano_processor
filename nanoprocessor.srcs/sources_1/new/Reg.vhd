@@ -35,6 +35,7 @@ entity Reg is
     Port ( En : in STD_LOGIC;
            D : in STD_LOGIC_VECTOR (3 downto 0);
            Clk : in STD_LOGIC;
+           Res : in STD_LOGIC;
            Q : out STD_LOGIC_VECTOR (3 downto 0));
 end Reg;
 
@@ -49,7 +50,9 @@ begin
     
     process (Clk) begin 
         if(rising_edge(Clk)) then
-            if(En = '1' ) then 
+            if(Res = '1' ) then 
+                Q <= "0000";
+            elsif (En = '1') then
                 Q <= D;
              end if;
         end if;
