@@ -2,6 +2,7 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+<<<<<<< HEAD
 # Start of session at: Sun May  4 22:51:28 2025
 # Process ID: 9072
 # Current directory: E:/Nano_Prosessor
@@ -11,10 +12,30 @@
 #-----------------------------------------------------------
 start_gui
 open_project E:/Nano_Prosessor/nanoprocessor.xpr
+=======
+# Start of session at: Mon May  5 20:49:44 2025
+# Process ID: 17580
+# Current directory: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22708 C:\Users\ASUS\Desktop\Digital Design\Vivado\nanoprocessor\nanoprocessor.xpr
+# Log file: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.xpr}
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/8_way_4_bit_MUX.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/Decoder_2_to_4.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/Decoder_3_to_8.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/Register_Bank.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/TB_Register_Bank.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/TB_Decoder_3_to_8.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/TB_Slow_Clk.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/TB_Decoder_2_to_4.vhd'.
+>>>>>>> origin/lahiru
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
+<<<<<<< HEAD
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
 update_compile_order -fileset sources_1
 set_property top Register_Bank [current_fileset]
@@ -169,6 +190,37 @@ INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Nano_Prosessor/nanoprocess
 Vivado Simulator 2018.1
 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
 Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto bc255be02f664c5cb5114dfa4081ffd4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Register_Bank_behav xil_defaultlib.TB_Register_Bank -log elaborate.log 
+=======
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Applications/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 914.895 ; gain = 121.684
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_way_4_bit.vhd}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_8_way_4_bit_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_8_way_4_bit_tb.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_8_way_4_bit_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MUX_8_way_4_bit_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_way_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_8_way_4_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_8_way_4_bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_8_way_4_bit_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Applications/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto bc255be02f664c5cb5114dfa4081ffd4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_8_way_4_bit_tb_behav xil_defaultlib.MUX_8_way_4_bit_tb -log elaborate.log 
+>>>>>>> origin/lahiru
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -178,18 +230,25 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
+<<<<<<< HEAD
 Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
 Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
 Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
 Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
 Compiling architecture behavioral of entity xil_defaultlib.tb_register_bank
 Built simulation snapshot TB_Register_Bank_behav
+=======
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_way_4_bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_8_way_4_bit_tb
+Built simulation snapshot MUX_8_way_4_bit_tb_behav
+>>>>>>> origin/lahiru
 
 ****** Webtalk v2018.1 (64-bit)
   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 
+<<<<<<< HEAD
 source E:/Nano_Prosessor/nanoprocessor.sim/sim_1/behav/xsim/xsim.dir/TB_Register_Bank_behav/webtalk/xsim_webtalk.tcl -notrace
 INFO: [Common 17-206] Exiting Webtalk at Sun May  4 23:26:03 2025...
 INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
@@ -201,6 +260,21 @@ INFO: [USF-XSim-8] Loading simulator feature
 Vivado Simulator 2018.1
 Time resolution is 1 ps
 source TB_Register_Bank.tcl
+=======
+source C:/Users/ASUS/Desktop/Digital -notrace
+couldn't read file "C:/Users/ASUS/Desktop/Digital": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Mon May  5 22:01:49 2025...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1067.480 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_8_way_4_bit_tb_behav -key {Behavioral:sim_1:Functional:MUX_8_way_4_bit_tb} -tclbatch {MUX_8_way_4_bit_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source MUX_8_way_4_bit_tb.tcl
+>>>>>>> origin/lahiru
 # set curr_wave [current_wave_config]
 # if { [string length $curr_wave] == 0 } {
 #   if { [llength [get_objects]] > 0} {
@@ -211,6 +285,7 @@ source TB_Register_Bank.tcl
 #   }
 # }
 # run 1000ns
+<<<<<<< HEAD
 INFO: [Common 17-41] Interrupt caught. Command should exit soon.
 run: Time (s): cpu = 00:00:06 ; elapsed = 00:03:14 . Memory (MB): peak = 1496.500 ; gain = 0.000
 INFO: [Common 17-344] 'run' was cancelled
@@ -356,6 +431,30 @@ INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Nano_Prosessor/nanoprocess
 Vivado Simulator 2018.1
 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
 Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto bc255be02f664c5cb5114dfa4081ffd4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Register_Bank_behav xil_defaultlib.TB_Register_Bank -log elaborate.log 
+=======
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_8_way_4_bit_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1085.387 ; gain = 17.906
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_8_way_4_bit_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MUX_8_way_4_bit_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_8_way_4_bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_8_way_4_bit_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Applications/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto bc255be02f664c5cb5114dfa4081ffd4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_8_way_4_bit_tb_behav xil_defaultlib.MUX_8_way_4_bit_tb -log elaborate.log 
+>>>>>>> origin/lahiru
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -365,6 +464,7 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
+<<<<<<< HEAD
 Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
 Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
 Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
@@ -380,6 +480,20 @@ INFO: [USF-XSim-8] Loading simulator feature
 Vivado Simulator 2018.1
 Time resolution is 1 ps
 source TB_Register_Bank.tcl
+=======
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_way_4_bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_8_way_4_bit_tb
+Built simulation snapshot MUX_8_way_4_bit_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_8_way_4_bit_tb_behav -key {Behavioral:sim_1:Functional:MUX_8_way_4_bit_tb} -tclbatch {MUX_8_way_4_bit_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source MUX_8_way_4_bit_tb.tcl
+>>>>>>> origin/lahiru
 # set curr_wave [current_wave_config]
 # if { [string length $curr_wave] == 0 } {
 #   if { [llength [get_objects]] > 0} {
@@ -390,6 +504,7 @@ source TB_Register_Bank.tcl
 #   }
 # }
 # run 1000ns
+<<<<<<< HEAD
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Register_Bank_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 close_sim
@@ -398,3 +513,75 @@ close_sim
 INFO: [Simtcl 6-16] Simulation closed
 exit
 INFO: [Common 17-206] Exiting Vivado at Sun May  4 23:37:20 2025...
+=======
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_8_way_4_bit_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_2_way_4_bit_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_2_way_4_bit_tb.vhd}}
+update_compile_order -fileset sim_1
+set_property top MUX_2_way_4_bit_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_2_way_4_bit_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MUX_2_way_4_bit_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_way_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_way_4_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_2_way_4_bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_way_4_bit_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Applications/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto bc255be02f664c5cb5114dfa4081ffd4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_2_way_4_bit_tb_behav xil_defaultlib.MUX_2_way_4_bit_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_way_4_bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2_way_4_bit_tb
+Built simulation snapshot MUX_2_way_4_bit_tb_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/ASUS/Desktop/Digital -notrace
+couldn't read file "C:/Users/ASUS/Desktop/Digital": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Mon May  5 23:07:52 2025...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_2_way_4_bit_tb_behav -key {Behavioral:sim_1:Functional:MUX_2_way_4_bit_tb} -tclbatch {MUX_2_way_4_bit_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source MUX_2_way_4_bit_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_2_way_4_bit_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+>>>>>>> origin/lahiru
