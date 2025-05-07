@@ -1,0 +1,1047 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 17580
+License: Customer
+
+Current time: 	Mon May 05 20:50:05 IST 2025
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 93 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Applications/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/Applications/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ASUS
+User home directory: C:/Users/ASUS
+User working directory: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Applications/Vivado
+HDI_APPROOT: D:/Applications/Vivado/2018.1
+RDI_DATADIR: D:/Applications/Vivado/2018.1/data
+RDI_BINDIR: D:/Applications/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/Applications/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/vivado.log
+Vivado journal file location: 	C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/vivado.jou
+Engine tmp dir: 	C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/.Xil/Vivado-17580-Lahiru
+
+GUI allocated memory:	208 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 574 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 60 MB (+60883kb) [00:00:10]
+// [Engine Memory]: 536 MB (+410438kb) [00:00:10]
+// Opening Vivado Project: C:\Users\ASUS\Desktop\Digital Design\Vivado\nanoprocessor\nanoprocessor.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 623 MB. GUI used memory: 51 MB. Current time: 5/5/25 8:50:07 PM IST
+// Tcl Message: open_project {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Applications/Vivado/2018.1/data/ip'. 
+// [Engine Memory]: 625 MB (+65172kb) [00:00:16]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 672 MB (+16381kb) [00:00:17]
+// [GUI Memory]: 66 MB (+2855kb) [00:00:18]
+// [GUI Memory]: 73 MB (+3461kb) [00:00:18]
+// Project name: nanoprocessor; location: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor; part: xc7a35tcpg236-1
+// [Engine Memory]: 729 MB (+25187kb) [00:00:19]
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 914.895 ; gain = 121.684 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (ch): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 16 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+// Elapsed time: 189 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, ch)
+// PAPropertyPanels.initPanels (MUX_2_way_4_bit.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_2_way_4_bit(Behavioral) (MUX_2_way_4_bit.vhd)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_2_way_4_bit(Behavioral) (MUX_2_way_4_bit.vhd)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, 8_way_4_bit_MUX.vhd]", 2, false); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 6); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 7); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MUX_2_way_4_bit(Behavioral) (MUX_2_way_4_bit.vhd)]", 9, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MUX_2_way_4_bit(Behavioral) (MUX_2_way_4_bit.vhd)]", 9, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MUX_2_way_4_bit(Behavioral) (MUX_2_way_4_bit.vhd)]", 9, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MUX_2_way_4_bit(Behavioral) (MUX_2_way_4_bit.vhd)]", 9, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, ch)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aF (ch): Remove Sources: addNotify
+// 'c' command handler elapsed time: 5 seconds
+dismissDialog("Remove Sources"); // aF (ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, ch) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// [GUI Memory]: 80 MB (+3846kb) [00:05:05]
+// Elapsed time: 14 seconds
+setFileChooser("C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_way_4_bit.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 25 seconds
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Add Sources"); // c (ch)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {{C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_way_4_bit.vhd}} 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_8_way_4_bit(Behavioral) (MUX_8_way_4_bit.vhd)]", 3, false); // B (D, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_8_way_4_bit(Behavioral) (MUX_8_way_4_bit.vhd)]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 777 MB. GUI used memory: 48 MB. Current time: 5/5/25 8:55:18 PM IST
+// [Engine Memory]: 777 MB (+11286kb) [00:05:25]
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7, true); // B (D, ch) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 24 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "MUX_8_way_4_bit_tb"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 37 seconds
+dismissDialog("Add Sources"); // c (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// bv (ch):  Add Simulation Sources  : addNotify
+// Tcl Message: close [ open {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_8_way_4_bit_tb.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 {{C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_8_way_4_bit_tb.vhd}} 
+// I (ch): Define Module: addNotify
+dismissDialog("Add Simulation Sources"); // bv (ch)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 84 MB (+15kb) [00:06:57]
+// Elapsed time: 47 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MUX_8_way_4_bit_tb(Behavioral) (MUX_8_way_4_bit_tb.vhd)]", 12, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MUX_8_way_4_bit_tb(Behavioral) (MUX_8_way_4_bit_tb.vhd)]", 12, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 40 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 70, 416); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 339, 390); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 29, 454); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 347, 381); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 209, 384); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 209, 384, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 209, 384); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 209, 384, false, true, false, false, false); // cd (w, ch) - Control Key
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 104, 411); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 104, 411, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 104, 411, false, true, false, false, false); // cd (w, ch) - Control Key
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 232, 382); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 232, 382, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 107, 417); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 107, 417, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+// [GUI Memory]: 89 MB (+123kb) [00:08:51]
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit.vhd", 2); // k (j, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("MUX_8_way_4_bit.vhd", 54, 436); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit.vhd", 216, 434, false, true, false, false, false); // cd (w, ch) - Control Key
+typeControlKey((HResource) null, "MUX_8_way_4_bit.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 3); // k (j, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 184, 435); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 398, 354); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 168, 433); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 294, 435); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit.vhd", 2); // k (j, ch)
+selectCodeEditor("MUX_8_way_4_bit.vhd", 112, 164); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 3); // k (j, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 294, 432); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 458, 472); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 162, 453); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 3); // k (j, ch)
+// [GUI Memory]: 94 MB (+903kb) [00:10:22]
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 295, 434); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 158, 450); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 173, 452); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 327, 482); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 529, 436); // cd (w, ch)
+// Elapsed time: 41 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 509, 469); // cd (w, ch)
+// Elapsed time: 82 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 111, 332); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 109, 385); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 2, 415); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 42, 431); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 112, 438); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 258, 421); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 13, 430); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 2, 413); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 150, 441); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 94, 440); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 111, 455); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 121, 453); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 84, 456); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 287, 394); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 612, 316); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 209, 368); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 315, 407); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 315, 407, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 315, 407); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 353, 410); // cd (w, ch)
+// [GUI Memory]: 99 MB (+362kb) [00:20:31]
+// Elapsed time: 427 seconds
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 143, 196); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 143, 196, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 75, 370); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 75, 370, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 17, 420); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 23, 421); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 143, 413); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 92, 386); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 92, 386); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 415, 280); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 364, 186); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 364, 186, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 364, 186); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 408, 250); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 139, 150); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 139, 150, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 197, 163); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 296, 200); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 419, 288); // cd (w, ch)
+// Elapsed time: 54 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 22, 315); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 64, 317); // cd (w, ch)
+// Elapsed time: 111 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 223, 318); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 223, 318, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 223, 318); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 223, 318); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 223, 318); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 223, 318); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 223, 318); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 98, 364); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 19, 332); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 62, 330); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 133, 360); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 22, 350); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 63, 355); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 49 MB. Current time: 5/5/25 9:25:19 PM IST
+// [GUI Memory]: 106 MB (+2255kb) [00:50:40]
+// [GUI Memory]: 113 MB (+1901kb) [00:50:55]
+// [GUI Memory]: 120 MB (+1344kb) [00:51:10]
+// [GUI Memory]: 127 MB (+694kb) [00:55:10]
+// Elapsed time: 2156 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 78, 354); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 74, 358); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 78, 350); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 78, 350, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 85, 344); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 84, 352); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 112, 438); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 106, 454); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 92, 415); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 89, 359); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 83, 469); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 210, 424); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 44, 361); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 80, 362); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 80, 362); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 16 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 44, 454); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 76, 454); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 35, 470); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 70, 472); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 70, 393); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 248, 298); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 58, 388); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 58, 388); // cd (w, ch)
+// Elapsed time: 35 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 47, 434); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 36, 490); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 100, 452); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 42 MB. Current time: 5/5/25 9:55:20 PM IST
+// Elapsed time: 42 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 94, 359); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 115, 371); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 127, 358); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 74, 365); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 109, 368); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 160, 364); // cd (w, ch)
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 121, 385); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 55, 364); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 40, 354); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 40, 354); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 40, 354, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 13 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 99, 466); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 75, 343); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 77, 361); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 74, 385); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 74, 396); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 74, 411); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 74, 432); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 77, 447); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 187, 407); // cd (w, ch)
+// Elapsed time: 44 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 95, 336); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 132, 276); // cd (w, ch)
+// Elapsed time: 105 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 113, 335); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 154, 327); // cd (w, ch)
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// e (ch):  Run Simulation : addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'MUX_8_way_4_bit_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj MUX_8_way_4_bit_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_8_way_4_bit.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity MUX_8_way_4_bit INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_8_way_4_bit_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity MUX_8_way_4_bit_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot MUX_8_way_4_bit_tb_behav  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/ASUS/Desktop/Digital -notrace couldn't read file "C:/Users/ASUS/Desktop/Digital": permission denied INFO: [Common 17-206] Exiting Webtalk at Mon May  5 22:01:49 2025... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1067.480 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "MUX_8_way_4_bit_tb_behav -key {Behavioral:sim_1:Functional:MUX_8_way_4_bit_tb} -tclbatch {MUX_8_way_4_bit_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 53 MB. Current time: 5/5/25 10:01:51 PM IST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source MUX_8_way_4_bit_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_8_way_4_bit_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1085.387 ; gain = 17.906 
+// 'd' command handler elapsed time: 11 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Run Simulation"); // e (ch)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I0[3:0]]", 0); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 96 MB. Current time: 5/5/25 10:01:57 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I0[3:0]]", 0); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I1[3:0]]", 1); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I1[3:0]]", 1); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:04 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I0[3:0]]", 0); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I1[3:0]]", 5); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I2[3:0]]", 10); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:02:10 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I3[3:0]]", 14); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I4[3:0]]", 19); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:14 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:15 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, S[2:0]]", 19); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Y[3:0]]", 16); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:02:28 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:35 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:35 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:35 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:35 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:35 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:36 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:36 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:37 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:41 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:41 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 50 MB. Current time: 5/5/25 10:02:41 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_way_4_bit.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 2); // k (j, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 239, 298, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 222, 284); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 216, 130); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 248, 359); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 114, 331); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 197, 357); // cd (w, ch)
+// Elapsed time: 14 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 172, 317); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 180, 174); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 180 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 161, 483); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 123, 339); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 142, 316); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 116, 331); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 83, 311); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 29, 300); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 29, 300, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 111, 339); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 189, 364); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 135, 351); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 115, 403); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 134, 424); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 187, 389); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 177, 404); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 51, 403); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 90, 342); // cd (w, ch)
+// Elapsed time: 43 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 106, 413); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 106, 413, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 106, 413); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 106, 413); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 55, 431); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 89, 438); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 147, 314); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 112, 334); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 110, 358); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 106, 402); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 109, 430); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 108, 469); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 103, 500); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 103, 500); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 110, 538); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 74, 349); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:32:42 PM IST
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// e (ch):  Run Simulation : addNotify
+// Elapsed time: 2379 seconds
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'MUX_8_way_4_bit_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj MUX_8_way_4_bit_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_8_way_4_bit_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity MUX_8_way_4_bit_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "MUX_8_way_4_bit_tb_behav -key {Behavioral:sim_1:Functional:MUX_8_way_4_bit_tb} -tclbatch {MUX_8_way_4_bit_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 80 MB. Current time: 5/5/25 10:49:55 PM IST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source MUX_8_way_4_bit_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_8_way_4_bit_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// 'd' command handler elapsed time: 2383 seconds
+dismissDialog("Run Simulation"); // e (ch)
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Y[3:0]]", 8); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 54 MB. Current time: 5/5/25 10:50:04 PM IST
+// Elapsed time: 147 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I0[3:0]]", 0); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I1[3:0]]", 5); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I2[3:0]]", 10); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 53 MB. Current time: 5/5/25 10:52:34 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 52 MB. Current time: 5/5/25 10:52:36 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 53 MB. Current time: 5/5/25 10:52:36 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 52 MB. Current time: 5/5/25 10:52:36 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:52:37 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:52:37 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:52:38 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:52:38 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:52:38 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:52:38 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 117 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I3[3:0]]", 10); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I7[3:0]]", 18); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 52 MB. Current time: 5/5/25 10:54:35 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:54:36 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Y[3:0]]", 15); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I7[3:0]]", 10); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I3[3:0]]", 2); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:54:42 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 52 MB. Current time: 5/5/25 10:54:43 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:54:43 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I2[3:0]]", 9); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 51 MB. Current time: 5/5/25 10:54:45 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I1[3:0]]", 4); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I0[3:0]]", 0); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 52 MB. Current time: 5/5/25 10:54:50 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 2); // k (j, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit.vhd", 1); // k (j, ch)
+selectCodeEditor("MUX_8_way_4_bit.vhd", 314, 142); // cd (w, ch)
+// Elapsed time: 112 seconds
+selectCodeEditor("MUX_8_way_4_bit.vhd", 328, 25); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 2); // k (j, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 258, 235); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 82 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 260, 153); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 2, 147); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 18, 266); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 34 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 32, 369); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 67, 430); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 227, 354); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 119, 293); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 462, 293); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 36, 239); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 338, 457); // cd (w, ch)
+// Elapsed time: 55 seconds
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 381, 317); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aE (Q, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MUX_2_way_4_bit(Behavioral) (MUX_2_way_4_bit.vhd)]", 11, false); // B (D, ch)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_8_way_4_bit(Behavioral) (MUX_8_way_4_bit.vhd)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_8_way_4_bit(Behavioral) (MUX_8_way_4_bit.vhd)]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_way_4_bit.vhd", 0); // k (j, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 87, 217); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 87, 217, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MUX_2_way_4_bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 87, 217); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit.vhd", 87, 217, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MUX_2_way_4_bit.vhd", 'c'); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7, true); // B (D, ch) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 13 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "MUX_2_way_4_bit_tb"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 21 seconds
+dismissDialog("Add Sources"); // c (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_2_way_4_bit_tb.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 {{C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_2_way_4_bit_tb.vhd}} 
+// I (ch): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MUX_2_way_4_bit_tb(Behavioral) (MUX_2_way_4_bit_tb.vhd)]", 12, false); // B (D, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MUX_2_way_4_bit_tb(Behavioral) (MUX_2_way_4_bit_tb.vhd)]", 12, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 2); // k (j, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 110, 248); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_way_4_bit_tb.vhd", 4); // k (j, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 350, 454); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_2_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 147, 468); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 104, 465); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 326, 399); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 278, 402); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 364, 418); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 398, 491); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 2); // k (j, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 189, 318); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 301, 314); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_way_4_bit_tb.vhd", 4); // k (j, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 119, 446); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_2_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 225, 503); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 215, 503); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 293, 548); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 2); // k (j, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 1, 59); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_8_way_4_bit_tb.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MUX_8_way_4_bit_tb.vhd", 296, 289); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_way_4_bit_tb.vhd", 4); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_way_4_bit_tb.vhd", 4); // k (j, ch)
+typeControlKey((HResource) null, "MUX_2_way_4_bit_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 74, 398); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 415, 310); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 97, 483); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 278, 281); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 216, 299); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 133, 434); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 145, 521); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 250, 381); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 250, 381); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 250, 381); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 124, 450); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 111, 348); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 83, 286); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 101, 283); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 102, 295); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 155, 332); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 96, 348); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 95, 389); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 63, 348); // cd (w, ch)
+selectCodeEditor("MUX_2_way_4_bit_tb.vhd", 358, 190); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, MUX_2_way_4_bit_tb(Behavioral) (MUX_2_way_4_bit_tb.vhd)]", 11, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top MUX_2_way_4_bit_tb [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'MUX_2_way_4_bit_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj MUX_2_way_4_bit_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sources_1/new/MUX_2_way_4_bit.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity MUX_2_way_4_bit INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.srcs/sim_1/new/MUX_2_way_4_bit_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity MUX_2_way_4_bit_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message:  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/ASUS/Desktop/Digital -notrace couldn't read file "C:/Users/ASUS/Desktop/Digital": permission denied INFO: [Common 17-206] Exiting Webtalk at Mon May  5 23:07:52 2025... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "MUX_2_way_4_bit_tb_behav -key {Behavioral:sim_1:Functional:MUX_2_way_4_bit_tb} -tclbatch {MUX_2_way_4_bit_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 60 MB. Current time: 5/5/25 11:07:54 PM IST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source MUX_2_way_4_bit_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_2_way_4_bit_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// 'd' command handler elapsed time: 4 seconds
+dismissDialog("Run Simulation"); // e (ch)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I0[3:0]]", 0); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 73 MB. Current time: 5/5/25 11:07:59 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, I1[3:0]]", 5); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Y[3:0]]", 10); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 62 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aE (Q, ch)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_2_way_4_bit_tb.vhd", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit_tb.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX_8_way_4_bit.vhd", 1); // k (j, ch)
