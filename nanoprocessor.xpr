@@ -56,7 +56,7 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-<<<<<<< HEAD
+
       <File Path="$PSRCDIR/sources_1/new/Decoder_2_to_4.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -64,9 +64,9 @@
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/Decoder_3_to_8.vhd">
-=======
+
       <File Path="$PSRCDIR/sources_1/new/MUX_2_way_4_bit.vhd">
->>>>>>> origin/lahiru
+
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -88,8 +88,7 @@
       <File Path="$PSRCDIR/sources_1/new/Slow_Clk.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-<<<<<<< HEAD
-=======
+
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -97,7 +96,7 @@
       <File Path="$PSRCDIR/sources_1/new/8_way_4_bit_MUX.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
->>>>>>> origin/lahiru
+
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
