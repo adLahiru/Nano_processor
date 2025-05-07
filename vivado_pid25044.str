@@ -79,3 +79,30 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ui.frmwork.CommandFailedException: ERROR: [ProjectBase 63-9] XML parser encountered a problem in E:/Nano_Prosessor/nanoprocessor.xpr at line 130 : XML badly formed
  (See E:/Nano_Prosessor/vivado_pid25044.debug)
 */
+// HOptionPane Error: 'ERROR: [ProjectBase 63-9] XML parser encountered a problem in E:/Nano_Prosessor/nanoprocessor.xpr at line 130 : XML badly formed (Vivado v2018.1 (64-bit))'
+// [GUI Memory]: 63 MB (+6003kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 529 MB. GUI used memory: 34 MB. Current time: 5/7/25 3:39:34 PM IST
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // JButton (A, G)
+// Elapsed time: 12 seconds
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "E:/Nano_Prosessor/nanoprocessor.xpr", 0); // q (O, ch)
+// CommandFailedException: ERROR: [ProjectBase 63-9] XML parser encountered a problem in E:/Nano_Prosessor/nanoprocessor.xpr at line 130 : XML badly formed 
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Wed May 07 15:39:48 IST 2025
+# Process ID: 25044
+# OS: Windows 10
+# User: thilo
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: ERROR: [ProjectBase 63-9] XML parser encountered a problem in E:/Nano_Prosessor/nanoprocessor.xpr at line 130 : XML badly formed
+ (See E:/Nano_Prosessor/vivado_pid25044.debug)
+*/
+// HOptionPane Error: 'ERROR: [ProjectBase 63-9] XML parser encountered a problem in E:/Nano_Prosessor/nanoprocessor.xpr at line 130 : XML badly formed (Vivado v2018.1 (64-bit))'
+// Elapsed time: 13 seconds
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // JButton (A, G)
