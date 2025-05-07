@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="36" Path="C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.xpr">
+<Project Version="7" Minor="36" Path="E:\Nano_Prosessor/nanoprocessor.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="bc255be02f664c5cb5114dfa4081ffd4"/>
