@@ -2,22 +2,21 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Sun May 11 12:53:01 2025
-# Process ID: 8636
+# Start of session at: Sun May 11 13:16:17 2025
+# Process ID: 25288
 # Current directory: C:/Nano_processor
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11500 C:\Nano_processor\nanoprocessor.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24004 C:\Nano_processor\nanoprocessor.xpr
 # Log file: C:/Nano_processor/vivado.log
 # Journal file: C:/Nano_processor\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Nano_processor/nanoprocessor.xpr
 update_compile_order -fileset sources_1
-export_ip_user_files -of_objects  [get_files C:/Nano_processor/nanoprocessor.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd] -no_script -reset -force -quiet
-remove_files  C:/Nano_processor/nanoprocessor.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd
-file delete -force C:/Nano_processor/nanoprocessor.srcs/sources_1/imports/sources_1/new/Program_Counter.vhd
-export_ip_user_files -of_objects  [get_files C:/Nano_processor/nanoprocessor.srcs/sim_1/imports/sim_1/new/TB_ProgramCounter.vhd] -no_script -reset -force -quiet
-remove_files  -fileset sim_1 C:/Nano_processor/nanoprocessor.srcs/sim_1/imports/sim_1/new/TB_ProgramCounter.vhd
-file delete -force C:/Nano_processor/nanoprocessor.srcs/sim_1/imports/sim_1/new/TB_ProgramCounter.vhd
+import_files -norecurse C:/Adder_Subtractor/Adder_Subtractor.srcs/sources_1/new/Program_Counter.vhd
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/Adder_Subtractor/Adder_Subtractor.srcs/sim_1/new/TB_ProgramCounter.vhd
+update_compile_order -fileset sim_1
 reset_run synth_1
 launch_runs synth_1 -jobs 6
 wait_on_run synth_1
