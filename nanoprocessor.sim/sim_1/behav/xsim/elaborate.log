@@ -1,10 +1,14 @@
 Vivado Simulator 2018.1
 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
 <<<<<<< HEAD
+<<<<<<< HEAD
 Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto bc255be02f664c5cb5114dfa4081ffd4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Register_Bank_behav xil_defaultlib.TB_Register_Bank -log elaborate.log 
 =======
 Running: D:/Applications/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto bc255be02f664c5cb5114dfa4081ffd4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_2_way_4_bit_tb_behav xil_defaultlib.MUX_2_way_4_bit_tb -log elaborate.log 
 >>>>>>> origin/lahiru
+=======
+Running: D:/Applications/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto bc255be02f664c5cb5114dfa4081ffd4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot adder_4_bit_Sim_behav xil_defaultlib.adder_4_bit_Sim -log elaborate.log 
+>>>>>>> lahiru
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -14,6 +18,7 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
+<<<<<<< HEAD
 <<<<<<< HEAD
 Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
 Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
@@ -26,3 +31,10 @@ Compiling architecture behavioral of entity xil_defaultlib.MUX_2_way_4_bit [mux_
 Compiling architecture behavioral of entity xil_defaultlib.mux_2_way_4_bit_tb
 Built simulation snapshot MUX_2_way_4_bit_tb_behav
 >>>>>>> origin/lahiru
+=======
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.adder_4_bit [adder_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.adder_4_bit_sim
+Built simulation snapshot adder_4_bit_Sim_behav
+>>>>>>> lahiru
