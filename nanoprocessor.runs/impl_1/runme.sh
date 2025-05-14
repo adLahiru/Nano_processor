@@ -11,9 +11,15 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
+<<<<<<< HEAD
   PATH=C:/Xilinx/SDK/2018.1/bin;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2018.1/bin
 else
   PATH=C:/Xilinx/SDK/2018.1/bin;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2018.1/bin:$PATH
+=======
+  PATH=C:/Xilinx/SDK/2018.2/bin;C:/Xilinx/Vivado/2018.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2018.2/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2018.2/bin
+else
+  PATH=C:/Xilinx/SDK/2018.2/bin;C:/Xilinx/Vivado/2018.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2018.2/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2018.2/bin:$PATH
+>>>>>>> origin/sandeni
 fi
 export PATH
 
@@ -24,7 +30,11 @@ else
 fi
 export LD_LIBRARY_PATH
 
+<<<<<<< HEAD
 HD_PWD='E:/Nano_Prosessor/nanoprocessor.runs/impl_1'
+=======
+HD_PWD='C:/Nano_processor/nanoprocessor.runs/impl_1'
+>>>>>>> origin/sandeni
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +52,10 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
+<<<<<<< HEAD
 EAStep vivado -log Instruction_Decoder.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Instruction_Decoder.tcl -notrace
+=======
+EAStep vivado -log Register_Bank.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Register_Bank.tcl -notrace
+>>>>>>> origin/sandeni
 
 

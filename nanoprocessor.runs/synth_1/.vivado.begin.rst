@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
+<<<<<<< HEAD
     <Process Command="vivado.bat" Owner="thilo" Host="MSI-RPT" Pid="4204">
+=======
+    <Process Command="vivado.bat" Owner="USER" Host="SANDE-VIVOBOOK" Pid="13752">
+>>>>>>> origin/sandeni
     </Process>
 </ProcessHandle>

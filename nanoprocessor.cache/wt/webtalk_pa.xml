@@ -4,6 +4,7 @@
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
 <<<<<<< HEAD
+<<<<<<< HEAD
 <application name="pa" timeStamp="Wed May 14 19:56:55 2025">
 =======
 <<<<<<< HEAD
@@ -19,6 +20,12 @@ This means code written to parse this file will need to be revisited each subseq
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="4132f125caa54a42a91d0fa84c75b3d3" type="ProjectID"/>
 <property name="ProjectIteration" value="2" type="ProjectIteration"/>
+=======
+<application name="pa" timeStamp="Sun May 11 13:22:04 2025">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="ab63c91cd6614d0d8bbc48380a805bbf" type="ProjectID"/>
+<property name="ProjectIteration" value="5" type="ProjectIteration"/>
+>>>>>>> origin/sandeni
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -29,6 +36,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <property name="AddSources" value="1" type="JavaHandler"/>
 <property name="EditDelete" value="1" type="JavaHandler"/>
@@ -178,6 +186,35 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="TclMode" value="30" type="TclMode"/>
 >>>>>>> lahiru
 >>>>>>> 8dbc402e7f1ba5db47febb2a699dd8e5bc5cc181
+=======
+<property name="AddSources" value="7" type="JavaHandler"/>
+<property name="EditDelete" value="3" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="RunImplementation" value="4" type="JavaHandler"/>
+<property name="RunSynthesis" value="4" type="JavaHandler"/>
+</item>
+<item name="Gui Handlers">
+<property name="AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN" value="1" type="GuiHandlerData"/>
+<property name="BaseDialog_CANCEL" value="4" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="19" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OK" value="1" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="62" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="4" type="GuiHandlerData"/>
+<property name="HJFileChooserRecentListPreview_RECENT_DIRECTORIES" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FILE" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_PROJECT" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_ADD_SOURCES" value="7" type="GuiHandlerData"/>
+<property name="PACommandNames_OPEN_PROJECT" value="1" type="GuiHandlerData"/>
+<property name="RDICommands_DELETE" value="3" type="GuiHandlerData"/>
+<property name="RemoveSourcesDialog_ALSO_DELETE" value="1" type="GuiHandlerData"/>
+<property name="SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT" value="9" type="GuiHandlerData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="107" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="91" type="TclMode"/>
+>>>>>>> origin/sandeni
 </item>
 </section>
 </application>
