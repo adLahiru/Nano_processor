@@ -4,6 +4,7 @@
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Start of session at: Wed May  7 22:09:54 2025
 # Process ID: 22496
 # Current directory: E:/Nano_Prosessor
@@ -21,10 +22,19 @@
 # Log file: C:/Nano_processor/vivado.log
 # Journal file: C:/Nano_processor\vivado.jou
 >>>>>>> origin/sandeni
+=======
+# Start of session at: Wed May 14 21:07:14 2025
+# Process ID: 31956
+# Current directory: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13408 C:\Users\ASUS\Desktop\Digital Design\Vivado\nanoprocessor\nanoprocessor.xpr
+# Log file: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor\vivado.jou
+>>>>>>> lahiru
 #-----------------------------------------------------------
 start_gui
 open_project C:/Nano_processor/nanoprocessor.xpr
 update_compile_order -fileset sources_1
+<<<<<<< HEAD
 <<<<<<< HEAD
 close [ open E:/Nano_Prosessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd w ]
 add_files E:/Nano_Prosessor/nanoprocessor.srcs/sources_1/new/Instruction_Decoder.vhd
@@ -79,3 +89,5 @@ launch_runs impl_1 -jobs 6
 wait_on_run impl_1
 open_run impl_1
 >>>>>>> origin/sandaru
+=======
+>>>>>>> lahiru

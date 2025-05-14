@@ -4,12 +4,21 @@
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Start of session at: Wed May  7 22:09:54 2025
 # Process ID: 22496
 # Current directory: E:/Nano_Prosessor
 # Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20888 E:\Nano_Prosessor\nanoprocessor.xpr
 # Log file: E:/Nano_Prosessor/vivado.log
 # Journal file: E:/Nano_Prosessor\vivado.jou
+=======
+# Start of session at: Wed May 14 21:07:14 2025
+# Process ID: 31956
+# Current directory: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13408 C:\Users\ASUS\Desktop\Digital Design\Vivado\nanoprocessor\nanoprocessor.xpr
+# Log file: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor\vivado.jou
+>>>>>>> lahiru
 #-----------------------------------------------------------
 start_gui
 open_project E:/Nano_Prosessor/nanoprocessor.xpr
@@ -44,6 +53,7 @@ Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
+<<<<<<< HEAD
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
 <<<<<<< HEAD
 open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 891.004 ; gain = 126.211
@@ -241,3 +251,7 @@ WARNING: [Timing 38-313] There are no user specified timing constraints. Timing 
 exit
 INFO: [Common 17-206] Exiting Vivado at Wed May 14 21:16:50 2025...
 >>>>>>> origin/sandaru
+=======
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Applications/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+>>>>>>> lahiru
