@@ -5,6 +5,7 @@ The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <application name="pa" timeStamp="Wed May 14 19:56:55 2025">
 =======
 <<<<<<< HEAD
@@ -26,6 +27,12 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ProjectID" value="ab63c91cd6614d0d8bbc48380a805bbf" type="ProjectID"/>
 <property name="ProjectIteration" value="5" type="ProjectIteration"/>
 >>>>>>> origin/sandeni
+=======
+<application name="pa" timeStamp="Wed May 14 21:16:46 2025">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="4d4d76c9f90d43f287da622864da3fdf" type="ProjectID"/>
+<property name="ProjectIteration" value="2" type="ProjectIteration"/>
+>>>>>>> origin/sandaru
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -36,6 +43,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <property name="AddSources" value="1" type="JavaHandler"/>
@@ -215,6 +223,34 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="BatchMode" value="0" type="BatchMode"/>
 <property name="TclMode" value="91" type="TclMode"/>
 >>>>>>> origin/sandeni
+=======
+<property name="AddSources" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="RunImplementation" value="1" type="JavaHandler"/>
+<property name="SetTopNode" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Handlers">
+<property name="BaseDialog_OK" value="5" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OK" value="1" type="GuiHandlerData"/>
+<property name="CreateSrcFileDialog_FILE_NAME" value="1" type="GuiHandlerData"/>
+<property name="CreateSrcFileDialog_FILE_TYPE" value="1" type="GuiHandlerData"/>
+<property name="DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS" value="12" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="18" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_ADD_SOURCES" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_AUTO_UPDATE_HIER" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_SET_AS_TOP" value="1" type="GuiHandlerData"/>
+<property name="RDICommands_DELETE" value="1" type="GuiHandlerData"/>
+<property name="RDICommands_SAVE_FILE" value="2" type="GuiHandlerData"/>
+<property name="SrcChooserPanel_CREATE_FILE" value="1" type="GuiHandlerData"/>
+<property name="SrcMenu_IP_HIERARCHY" value="1" type="GuiHandlerData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="39" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="34" type="TclMode"/>
+>>>>>>> origin/sandaru
 </item>
 </section>
 </application>

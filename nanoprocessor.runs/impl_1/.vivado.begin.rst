@@ -1,9 +1,13 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Process Command="vivado.bat" Owner="thilo" Host="MSI-RPT" Pid="4928">
 =======
     <Process Command="vivado.bat" Owner="USER" Host="SANDE-VIVOBOOK" Pid="7660">
 >>>>>>> origin/sandeni
+=======
+    <Process Command="vivado.bat" Owner="asus" Host="SANDARU-VIVOBOO" Pid="27068">
+>>>>>>> origin/sandaru
     </Process>
 </ProcessHandle>

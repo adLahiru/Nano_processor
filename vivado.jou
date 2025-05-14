@@ -3,6 +3,7 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+<<<<<<< HEAD
 # Start of session at: Wed May  7 22:09:54 2025
 # Process ID: 22496
 # Current directory: E:/Nano_Prosessor
@@ -50,3 +51,31 @@ wait_on_run synth_1
 launch_runs impl_1 -jobs 6
 wait_on_run impl_1
 >>>>>>> origin/sandeni
+=======
+# Start of session at: Wed May 14 21:04:45 2025
+# Process ID: 42264
+# Current directory: D:/nano_processor/Nano_processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8048 D:\nano_processor\Nano_processor\nanoprocessor.xpr
+# Log file: D:/nano_processor/Nano_processor/vivado.log
+# Journal file: D:/nano_processor/Nano_processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/nano_processor/Nano_processor/nanoprocessor.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/nano_processor/Nano_processor/nanoprocessor.srcs/sources_1/new/8_way_4_bit_MUX.vhd] -no_script -reset -force -quiet
+remove_files  D:/nano_processor/Nano_processor/nanoprocessor.srcs/sources_1/new/8_way_4_bit_MUX.vhd
+close [ open D:/nano_processor/Nano_processor/nanoprocessor.srcs/sources_1/new/Programm_Rom.vhd w ]
+add_files D:/nano_processor/Nano_processor/nanoprocessor.srcs/sources_1/new/Programm_Rom.vhd
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Programm_Rom [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+open_run impl_1
+>>>>>>> origin/sandaru

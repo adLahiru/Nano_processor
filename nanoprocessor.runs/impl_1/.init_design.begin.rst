@@ -1,9 +1,13 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Process Command=".planAhead." Owner="thilo" Host="MSI-RPT" Pid="11460">
 =======
     <Process Command=".planAhead." Owner="USER" Host="SANDE-VIVOBOOK" Pid="18376">
 >>>>>>> origin/sandeni
+=======
+    <Process Command=".planAhead." Owner="asus" Host="SANDARU-VIVOBOO" Pid="1796">
+>>>>>>> origin/sandaru
     </Process>
 </ProcessHandle>

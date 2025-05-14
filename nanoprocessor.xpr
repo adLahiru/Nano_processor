@@ -4,10 +4,14 @@
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <Project Version="7" Minor="36" Path="E:/Nano_Prosessor/nanoprocessor.xpr">
 =======
 <Project Version="7" Minor="38" Path="C:/Nano_processor/nanoprocessor.xpr">
 >>>>>>> origin/sandeni
+=======
+<Project Version="7" Minor="36" Path="D:/nano_processor/Nano_processor/nanoprocessor.xpr">
+>>>>>>> origin/sandaru
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="bc255be02f664c5cb5114dfa4081ffd4"/>
@@ -63,6 +67,7 @@
       <Filter Type="Srcs"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <File Path="$PSRCDIR/sources_1/new/Instruction_Decoder.vhd">
 =======
 <<<<<<< HEAD
@@ -73,11 +78,15 @@
 =======
       <File Path="$PPRDIR/../Fully Adder/src/FA.vhd">
 >>>>>>> 8dbc402e7f1ba5db47febb2a699dd8e5bc5cc181
+=======
+      <File Path="$PSRCDIR/sources_1/new/Programm_Rom.vhd">
+>>>>>>> origin/sandaru
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <File Path="$PSRCDIR/sources_1/new/Decoder_2_to_4.vhd">
         <FileInfo>
@@ -116,6 +125,18 @@
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
 >>>>>>> 8dbc402e7f1ba5db47febb2a699dd8e5bc5cc181
+=======
+      <File Path="$PSRCDIR/sources_1/new/Decoder_2_to_4.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Decoder_3_to_8.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+>>>>>>> origin/sandaru
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -129,9 +150,13 @@
       <File Path="$PSRCDIR/sources_1/new/Register_Bank.vhd">
         <FileInfo>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <Attr Name="AutoDisabled" Val="1"/>
 =======
 >>>>>>> origin/sandeni
+=======
+          <Attr Name="AutoDisabled" Val="1"/>
+>>>>>>> origin/sandaru
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -206,6 +231,7 @@
         <Option Name="DesignMode" Val="RTL"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Option Name="TopModule" Val="Instruction_Decoder"/>
 =======
         <Option Name="TopModule" Val="adder_4_bit"/>
@@ -214,6 +240,9 @@
 >>>>>>> origin/sandeni
         <Option Name="TopAutoSet" Val="TRUE"/>
 >>>>>>> 8dbc402e7f1ba5db47febb2a699dd8e5bc5cc181
+=======
+        <Option Name="TopModule" Val="Programm_Rom"/>
+>>>>>>> origin/sandaru
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -365,10 +394,14 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
 =======
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="false">
 >>>>>>> origin/sandeni
+=======
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
+>>>>>>> origin/sandaru
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
         <Step Id="init_design"/>

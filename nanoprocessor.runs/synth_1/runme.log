@@ -1,7 +1,11 @@
 
 *** Running vivado
 <<<<<<< HEAD
+<<<<<<< HEAD
     with args -log Instruction_Decoder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Instruction_Decoder.tcl
+=======
+    with args -log Programm_Rom.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Programm_Rom.tcl
+>>>>>>> origin/sandaru
 
 
 ****** Vivado v2018.1 (64-bit)
@@ -9,6 +13,7 @@
   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 
+<<<<<<< HEAD
 source Instruction_Decoder.tcl -notrace
 Command: synth_design -top Instruction_Decoder -part xc7a35tcpg236-1
 =======
@@ -23,10 +28,15 @@ Command: synth_design -top Instruction_Decoder -part xc7a35tcpg236-1
 source Register_Bank.tcl -notrace
 Command: synth_design -top Register_Bank -part xc7a35tcpg236-1
 >>>>>>> origin/sandeni
+=======
+source Programm_Rom.tcl -notrace
+Command: synth_design -top Programm_Rom -part xc7a35tcpg236-1
+>>>>>>> origin/sandaru
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
+<<<<<<< HEAD
 <<<<<<< HEAD
 INFO: Helper process launched with PID 7792 
 ---------------------------------------------------------------------------------
@@ -72,11 +82,25 @@ Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB
 ---------------------------------------------------------------------------------
 Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 464.477 ; gain = 151.270
 >>>>>>> origin/sandeni
+=======
+INFO: Helper process launched with PID 40628 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 437.383 ; gain = 94.184
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Programm_Rom' [D:/nano_processor/Nano_processor/nanoprocessor.srcs/sources_1/new/Programm_Rom.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Programm_Rom' (1#1) [D:/nano_processor/Nano_processor/nanoprocessor.srcs/sources_1/new/Programm_Rom.vhd:40]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 492.648 ; gain = 149.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 492.648 ; gain = 149.449
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
+<<<<<<< HEAD
 <<<<<<< HEAD
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
@@ -104,6 +128,14 @@ INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
 Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 464.477 ; gain = 151.270
 >>>>>>> origin/sandeni
+=======
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 492.648 ; gain = 149.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 492.648 ; gain = 149.449
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -117,6 +149,7 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 <<<<<<< HEAD
+<<<<<<< HEAD
 +---Muxes : 
 	   2 Input      3 Bit        Muxes := 5     
 	   2 Input      1 Bit        Muxes := 11    
@@ -126,6 +159,10 @@ Detailed RTL Component Info :
 +---Registers : 
 	                4 Bit    Registers := 8     
 >>>>>>> origin/sandeni
+=======
++---Muxes : 
+	  16 Input     12 Bit        Muxes := 1     
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -133,6 +170,7 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Module Instruction_Decoder 
 Detailed RTL Component Info : 
@@ -147,6 +185,12 @@ Detailed RTL Component Info :
 +---Registers : 
 	                4 Bit    Registers := 1     
 >>>>>>> origin/sandeni
+=======
+Module Programm_Rom 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input     12 Bit        Muxes := 1     
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -165,6 +209,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 <<<<<<< HEAD
+<<<<<<< HEAD
 WARNING: [Synth 8-3917] design Instruction_Decoder has port Jmp_Flag driven by constant 0
 WARNING: [Synth 8-3917] design Instruction_Decoder has port Val_Sel driven by constant 0
 WARNING: [Synth 8-3332] Sequential element (Jmp_Flag_reg) is unused and will be removed from module Instruction_Decoder.
@@ -181,6 +226,11 @@ Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elaps
 ---------------------------------------------------------------------------------
 Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 591.367 ; gain = 278.160
 >>>>>>> origin/sandeni
+=======
+WARNING: [Synth 8-3917] design Programm_Rom has port Instruction_Bus[5] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -194,10 +244,14 @@ Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 614.883 ; gain = 274.867
 =======
 Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 591.367 ; gain = 278.160
 >>>>>>> origin/sandeni
+=======
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -210,10 +264,14 @@ Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 614.883 ; gain = 274.867
 =======
 Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 591.367 ; gain = 278.160
 >>>>>>> origin/sandeni
+=======
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -238,10 +296,14 @@ Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 614.883 ; gain = 274.867
 =======
 Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 591.367 ; gain = 278.160
 >>>>>>> origin/sandeni
+=======
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -255,10 +317,14 @@ Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 614.883 ; gain = 274.867
 =======
 Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 591.367 ; gain = 278.160
 >>>>>>> origin/sandeni
+=======
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -271,40 +337,56 @@ Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 614.883 ; gain = 274.867
 =======
 Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 591.367 ; gain = 278.160
 >>>>>>> origin/sandeni
+=======
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 614.883 ; gain = 274.867
 =======
 Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 591.367 ; gain = 278.160
 >>>>>>> origin/sandeni
+=======
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 614.883 ; gain = 274.867
 =======
 Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 591.367 ; gain = 278.160
 >>>>>>> origin/sandeni
+=======
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 614.883 ; gain = 274.867
 =======
 Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 591.367 ; gain = 278.160
 >>>>>>> origin/sandeni
+=======
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+>>>>>>> origin/sandaru
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -320,6 +402,7 @@ Report Cell Usage:
 +------+-----+------+
 |      |Cell |Count |
 +------+-----+------+
+<<<<<<< HEAD
 |1     |BUFG |     1|
 <<<<<<< HEAD
 |2     |LUT1 |     1|
@@ -329,12 +412,19 @@ Report Cell Usage:
 |6     |LD   |    18|
 |7     |IBUF |    16|
 |8     |OBUF |    20|
+=======
+|1     |LUT3 |     2|
+|2     |LUT4 |     7|
+|3     |IBUF |     4|
+|4     |OBUF |    12|
+>>>>>>> origin/sandaru
 +------+-----+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
+<<<<<<< HEAD
 |1     |top      |       |    70|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
@@ -393,6 +483,18 @@ Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 .
 Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 591.367 ; gain = 278.160
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+=======
+|1     |top      |       |    25|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 617.113 ; gain = 273.914
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+>>>>>>> origin/sandaru
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -400,6 +502,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
+<<<<<<< HEAD
 28 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
 synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 702.016 ; gain = 401.652
@@ -409,3 +512,12 @@ INFO: [runtcl-4] Executing : report_utilization -file Register_Bank_utilization_
 report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 702.016 ; gain = 0.000
 INFO: [Common 17-206] Exiting Vivado at Sun May 11 13:20:08 2025...
 >>>>>>> origin/sandeni
+=======
+11 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 725.512 ; gain = 395.188
+INFO: [Common 17-1381] The checkpoint 'D:/nano_processor/Nano_processor/nanoprocessor.runs/synth_1/Programm_Rom.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Programm_Rom_utilization_synth.rpt -pb Programm_Rom_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 725.512 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 14 21:15:12 2025...
+>>>>>>> origin/sandaru

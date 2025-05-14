@@ -12,6 +12,7 @@ exit
 
 if [ -z "$PATH" ]; then
 <<<<<<< HEAD
+<<<<<<< HEAD
   PATH=C:/Xilinx/SDK/2018.1/bin;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2018.1/bin
 else
   PATH=C:/Xilinx/SDK/2018.1/bin;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2018.1/bin:$PATH
@@ -20,6 +21,11 @@ else
 else
   PATH=C:/Xilinx/SDK/2018.2/bin;C:/Xilinx/Vivado/2018.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2018.2/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2018.2/bin:$PATH
 >>>>>>> origin/sandeni
+=======
+  PATH=C:/Xilinx/SDK/2018.1/bin;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2018.1/bin
+else
+  PATH=C:/Xilinx/SDK/2018.1/bin;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2018.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2018.1/bin:$PATH
+>>>>>>> origin/sandaru
 fi
 export PATH
 
@@ -31,10 +37,14 @@ fi
 export LD_LIBRARY_PATH
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 HD_PWD='E:/Nano_Prosessor/nanoprocessor.runs/synth_1'
 =======
 HD_PWD='C:/Nano_processor/nanoprocessor.runs/synth_1'
 >>>>>>> origin/sandeni
+=======
+HD_PWD='D:/nano_processor/Nano_processor/nanoprocessor.runs/synth_1'
+>>>>>>> origin/sandaru
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -51,7 +61,11 @@ EAStep()
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 EAStep vivado -log Instruction_Decoder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Instruction_Decoder.tcl
 =======
 EAStep vivado -log Register_Bank.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Register_Bank.tcl
 >>>>>>> origin/sandeni
+=======
+EAStep vivado -log Programm_Rom.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Programm_Rom.tcl
+>>>>>>> origin/sandaru

@@ -1,9 +1,16 @@
 <?xml version="1.0"?>
 <Runs Version="1" Minor="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<Run Id="synth_1" LaunchDir="E:/Nano_Prosessor/nanoprocessor.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
 =======
 	<Run Id="synth_1" LaunchDir="C:/Nano_processor/nanoprocessor.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
 >>>>>>> origin/sandeni
+=======
+	<Run Id="synth_1" LaunchDir="D:/nano_processor/Nano_processor/nanoprocessor.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="impl_1" LaunchDir="D:/nano_processor/Nano_processor/nanoprocessor.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_1"/>
+	</Run>
+>>>>>>> origin/sandaru
 </Runs>
 
