@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim/xsim.dir/adder_4_bit_Sim_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Wed May 14 17:52:05 2025" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Wed May 14 18:13:03 2025" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2018.1 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2188600" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "6a4310d0-21bd-4d0b-94a0-ae65849a8218" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "bc255be02f664c5cb5114dfa4081ffd4" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "3" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "4" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "13th Gen Intel(R) Core(TM) i9-13900H" -context "user_environment"
@@ -36,7 +36,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "30" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "17" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.30_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "54252_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 1881099184 -regid "213313406_0_0_609" -xml C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim/xsim.dir/adder_4_bit_Sim_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim/xsim.dir/adder_4_bit_Sim_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim/xsim.dir/adder_4_bit_Sim_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "0.31_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "54196_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 3662228250 -regid "213313406_0_0_609" -xml C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim/xsim.dir/adder_4_bit_Sim_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim/xsim.dir/adder_4_bit_Sim_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.sim/sim_1/behav/xsim/xsim.dir/adder_4_bit_Sim_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
