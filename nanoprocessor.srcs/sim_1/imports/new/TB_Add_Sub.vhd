@@ -37,92 +37,70 @@ end TB_Add_Sub;
 
 architecture Behavioral of TB_Add_Sub is
 
-    component Add_Sub
-        Port ( RegSel : in STD_LOGIC;
-               Clk : in STD_LOGIC;
-               A : in STD_LOGIC_VECTOR (3 downto 0);
-               Sign : in STD_LOGIC;
-               Res : in STD_LOGIC;
-               S : out STD_LOGIC_VECTOR (3 downto 0);
-               Zero : out STD_LOGIC;
-               OverFlow : out STD_LOGIC);
-    end component;
+component Add_Sub
+    Port ( A : in STD_LOGIC_VECTOR (3 downto 0);
+           B : in STD_LOGIC_VECTOR (3 downto 0);
+           Sign : in STD_LOGIC;
+           S : out STD_LOGIC_VECTOR (3 downto 0);
+           Zero : out STD_LOGIC;
+           OverFlow : out STD_LOGIC);
+end component;
+
     
-    signal RegSel, Clk, Sign, Res, Zero, Overflow: STD_LOGIC;
-    signal A,S: STD_LOGIC_VECTOR(3 downto 0);
+    signal Sign, Zero, Overflow: STD_LOGIC;
+    signal A,B,S: STD_LOGIC_VECTOR(3 downto 0);
     
 begin
  UUT: Add_Sub 
     PORT MAP(
-       RegSel => RegSel,
-       Clk => Clk,
        A => A,
+       B => B,
        Sign => Sign,
-       Res => Res,
        S => S,
        Zero => Zero,
        Overflow => Overflow);
    
+             
+    process 
+    begin
         
-     process 
-        begin
-            Clk <= '1';
-            WAIT for 5 ns;
-            
-            Clk <= '0';
-            WAIT for 5 ns;
-          
-        end process;
+        Sign <= '0';            
+        A <= "0111";
+        B <= "0110";
+        WAIT for 20ns;
         
-        process 
-        begin
-            
-            Res <= '1';
-            RegSel <= '0';
-            Sign <= '0';
-            WAIT for 10ns;
-            
-            Res <= '0';
-            WAIT FOR 50ns;
-            
-            RegSel <= '1';
-            A <= "1110";
-            WAIT for 20ns;
-            
-            RegSel <= '0';
-            A <= "0110";
-            WAIT for 20ns;
-            
-            RegSel <= '1';      
-            A <= "0100";
-            WAIT for 20ns;
-            
-            RegSel <= '0';
-            A <= "0000";
-            WAIT for 20ns;
-            
-            RegSel <= '1';
-            A <= "0101";
-            WAIT for 20ns;
-            
-            RegSel <= '0';
-            A <= "0011";
-            WAIT for 20ns;
-            
-            RegSel <= '1';
-            A <= "1000";
-            WAIT for 20ns;
 
-            Sign <= '1';
-            RegSel <= '1';
-            A <= "1111";
-            wait for 20 ns;
-            
-            A <= "0001";
-            RegSel <= '0';
-            wait for 20 ns;
-                     
-       
-    end process;
+        B <= "0001";           
+        WAIT for 20ns;
+        
+        Sign <= '1';
+        A <= "0110";
+        B <= "0111";
+        WAIT for 20ns;
+        
+        A <= "0101";
+        B <= "0101";
+        WAIT for 20ns;
+        
+        A <= "0100";
+        B <= "0011";
+        WAIT for 20ns;
+        
+        Sign <= '0';
+        A <= "0011";
+        WAIT for 20ns;
+
+
+        A <= "0010";
+        wait for 20 ns;
+        
+        Sign <= '1';
+        A <= "0000";
+        B <= "0101";
+        wait for 20 ns;
+        
+                 
+   
+end process;
 
 end Behavioral;

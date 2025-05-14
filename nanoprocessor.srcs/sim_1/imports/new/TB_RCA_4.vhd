@@ -44,6 +44,7 @@ architecture Behavioral of TB_RCA_4 is
            C_in3: out STD_LOGiC;
            C_out : out STD_LOGIC);
      end component;
+     
      signal a, b, s: STD_LOGIC_VECTOR(3 downto 0);
      signal carry_in, carry_in3, carry_out: STD_LOGIC;
 
