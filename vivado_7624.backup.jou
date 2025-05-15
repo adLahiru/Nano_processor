@@ -2,13 +2,18 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Wed May 14 22:10:11 2025
-# Process ID: 13048
+# Start of session at: Wed May 14 21:38:28 2025
+# Process ID: 7624
 # Current directory: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19384 C:\Users\ASUS\Desktop\Digital Design\Vivado\nanoprocessor\nanoprocessor.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17392 C:\Users\ASUS\Desktop\Digital Design\Vivado\nanoprocessor\nanoprocessor.xpr
 # Log file: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/vivado.log
 # Journal file: C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.xpr}
+update_compile_order -fileset sim_1
 update_compile_order -fileset sources_1
+close_project
+open_project {C:/Users/ASUS/Desktop/Digital Design/Vivado/nanoprocessor/nanoprocessor.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
